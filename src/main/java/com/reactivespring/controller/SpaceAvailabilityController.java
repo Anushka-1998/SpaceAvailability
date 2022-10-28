@@ -33,7 +33,8 @@ public class SpaceAvailabilityController {
 
     /**
      * This method gets routeDTO from database with their availability status based on noOfContainers
-     * @param routeDTOS
+     * @param routeDTOList
+     * @param noOfContainers
      * @return
      */
     @PostMapping("/getspaceInfos")
